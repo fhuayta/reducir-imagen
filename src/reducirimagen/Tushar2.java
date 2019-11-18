@@ -24,8 +24,7 @@ public class Tushar2 {
             ImageIcon ii = new ImageIcon("/home/franz/Descargas/apple.jpg");
             BufferedImage bi = new BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB);
             Graphics2D g2d = (Graphics2D) bi.createGraphics();
-            g2d.addRenderingHints(new RenderingHints(RenderingHints.KEY_RENDERING,
-                    RenderingHints.VALUE_RENDER_QUALITY));
+            g2d.addRenderingHints(new RenderingHints(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY));
 //            boolean b = g2d.drawImage(ii.getImage(), 0, 0, 50, 50, null); // Baja la calidad
             boolean b = g2d.drawImage(ii.getImage(), 0, 0, 100, 100, null); // Baja la calidad
             System.out.println(b);
